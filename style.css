@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+}
+
+body{
+  background: rgb(121, 110, 110);
+  background-size: cover;
+  height: 100vh;
+  width: 100vw; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+label{
+  font-weight: bold;
+  margin-bottom: .5rem;
+  margin-top: 1rem;
+}
+
+input {
+  /* border: none; */
+  border-radius: 20px;
+  padding: 10px;
+  font-size: 15px;
+  font-weight: bold;
+  border-color: black;
+}
+
+#buscaInfo{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+
+#buscaInfo .button{
+  cursor: pointer;
+  border: 2px solid black;
+  border-radius: 10%;
+  color: black;
+  font-size: 12px;
+  font-weight: bold;
+  background-color: white;
+}
+
+.informacoes{
+  background-color: #d3d3d3;
+  opacity: 0.8; 
+  width: 97%;  
+  max-width: 500px; 
+  border-radius: 25px; 
+  padding: 20px;
+  box-shadow: 10px 8px 15px 5px black;
+}
+
+.informacoes h1 {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.informacoesEstado input{
+  display: flex;
+  border: 2px solid white;
+  
+}
+
+.informacoesEstado label{
+  display: block;
+  font-size: 20px;
+  font-weight: bold;
+  color: black;
+}

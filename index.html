@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="informacoes">
+    <h1>Informações de localização </h1>
+
+    <form name="buscaInfo" id="buscaInfo">
+      <div>
+        <label for="cep" required>CEP</label>
+        <input type="text" name="cep" id="cep">
+      </div>
+
+      <input class="button" type="button" value="Buscar" id="btnCep">
+    </form>
+
+    <div class="informacoesEstado" id="informacoesEstado">
+      <label for="estado">Estado</label>
+      <input type="text" name="estado" id="estado">
+
+      <label for="cidade">Cidade</label>
+      <input type="text" name="cidade" id="cidade">
+
+      <label for="rua">Rua</label>
+      <input type="text" name="rua" id="rua">
+
+      <label for="bairro">Bairro</label>
+      <input type="text" name="bairro" id="bairro">
+
+      <label for="ddd">DDD</label>
+      <input type="text" name="ddd" id="ddd">
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
